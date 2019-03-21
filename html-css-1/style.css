@@ -1,0 +1,93 @@
+header {
+    background: gray;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    padding: 20px;
+}
+
+
+h1 {
+    background: black;
+    color: yellow;
+    text-align: center;
+    padding: 60px;
+    font-size: 32pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: center;
+    flex-flow: row;
+    position: sticky;
+    
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    padding: 9%;
+    background: turquoise;
+    border-radius: 5%;
+    justify-self: center;
+    position: sticky;
+    flex-wrap: wrap;
+}
+.box2 {
+    height: 50px;
+    width: 50px;
+    padding: 9%;
+    background: turquoise;
+    border-radius: 5%;
+    flex-wrap: wrap;
+    
+}
+.box3 {
+    height: 50px;
+    width: 50px;
+    padding: 9%;
+    background: turquoise;
+    border-radius: 5%;
+    flex-wrap: wrap;
+}
+.box4 {
+    height: 10px;
+    width: 50px;
+    padding: 9%;
+    background: orange;
+    border-radius: 5%;
+    flex-wrap: wrap;
+    
+}
+.box5 {
+    height: 10px;
+    width: 10px;
+    padding: 9%;
+    background: orange;
+    border-radius: 5%;
+    flex-wrap: wrap;
+}
+.box6 {
+    text-align: center;
+    background: white;
+    flex-wrap: wrap;
+}
+.box7 {
+    align-content: center;
+    flex-wrap: wrap; 
+}
+
+
+footer {
+    background-color: darkblue;
+    margin-top: 5px;
+}
+ 
+
+
